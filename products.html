@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechStore</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">TechStore</h1>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link active">Products</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Our Products</h2>
+                <p class="hero-subtitle">Explore our complete collection</p>
+            </div>
+        </section>
+
+        <section class="products container">
+            <div class="product-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Smartphones</button>
+                <button class="filter-btn">Laptops</button>
+                <button class="filter-btn">Accessories</button>
+            </div>
+
+            <div class="product-grid">
+                <!-- Additional products -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e" alt="Wireless Earbuds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Earbuds</h3>
+                        <p>True wireless earbuds with noise cancellation</p>
+                        <div class="product-price">$149</div>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1527814050087-3793815479db" alt="Gaming Mouse">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pro Gaming Mouse</h3>
+                        <p>High-precision gaming mouse</p>
+                        <div class="product-price">$79</div>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137" alt="Mechanical Keyboard">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mechanical Keyboard</h3>
+                        <p>RGB mechanical gaming keyboard</p>
+                        <div class="product-price">$129</div>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TechStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
